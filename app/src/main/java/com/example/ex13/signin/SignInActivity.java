@@ -95,7 +95,7 @@ public class SignInActivity extends Activity {
             super.onPreExecute();
         }
 
-        //작업을 쓰레드로 처리
+        //작업을 쓰레드로 처리 .. execute()로 호출
         @Override
         protected String doInBackground(Map... maps) {
 

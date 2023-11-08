@@ -36,7 +36,7 @@ public class Data {
     }
 
     public void setAuth(String data2) {
-        data2 = data2;
+        this.data2 = data2;
     }
 
     public String getData3() {
